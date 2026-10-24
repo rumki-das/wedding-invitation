@@ -69,13 +69,13 @@ export default function EnvelopeOverlay({ phase, onOpen }) {
             width: 60, height: 60, left: "50%", top: 48, transform: `translateX(-50%) scale(${active ? 0 : 1})`,
             background: C.maroon, border: `1.5px solid ${C.goldLight}`, transition: "transform 0.4s ease", zIndex: 5,
           }}>
-            <span style={{ color: C.goldLight, fontFamily: "'Cormorant Garamond', serif", fontSize: 20 }}>M&amp;R</span>
+            <span style={{ color: C.goldLight, fontFamily: "'Cormorant Garamond', serif", fontSize: 20 }}>R&amp;M</span>
           </div>
         </div>
       </div>
 
       <p className="text-base tracking-[0.3em] uppercase" style={{ color: C.gold }}>{active ? "Opening..." : "Tap to Open"}</p>
-      <p className="text-xl mt-2" style={{ color: `${C.ivory}99` }}><b>Manomoy &amp; Rumki's Wedding Invitation</b></p>
+      <p className="text-xl mt-2" style={{ color: `${C.ivory}99` }}><b>Rumki &amp; Manomoy's Wedding Invitation</b></p>
     </div>
   );
 }

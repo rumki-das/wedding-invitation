@@ -40,19 +40,19 @@ export default function DescriptionSection() {
             <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-3xl uppercase tracking-[0.2em] mb-2 lg:mb-4" style={{ color: C.maroon }}>Our Beginning</p>
           </Reveal>
           <Reveal delay={0.16}>
-            <p className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl 2xl:text-9xl leading-none" style={{ color: C.maroonDeep, fontFamily: "'Cormorant Garamond', serif" }}>Manomoy</p>
+            <p className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl 2xl:text-9xl leading-none" style={{ color: C.maroonDeep, fontFamily: "'Cormorant Garamond', serif" }}>Rumki</p>
           </Reveal>
           <Reveal delay={0.24}>
-            <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-3xl mt-1 mb-2 lg:mt-3 lg:mb-4 leading-snug" style={{ color: `${C.brown}CC` }}>son of Sri Bhabesh Chandra Biswas<br />&amp; Smt. Suchitra Biswas</p>
+            <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-3xl mt-1 mb-2 lg:mt-3 lg:mb-4 leading-snug" style={{ color: `${C.brown}CC` }}>daughter of Lt. Soumen Das<br />&amp; Smt. Gopali Das</p>
           </Reveal>
           <Reveal delay={0.32}>
             <p className="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-4xl italic mb-2 lg:mb-4" style={{ color: C.gold }}>weds</p>
           </Reveal>
           <Reveal delay={0.4}>
-            <p className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl 2xl:text-9xl leading-none" style={{ color: C.maroonDeep, fontFamily: "'Cormorant Garamond', serif" }}>Rumki</p>
+            <p className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl 2xl:text-9xl leading-none" style={{ color: C.maroonDeep, fontFamily: "'Cormorant Garamond', serif" }}>Manomoy</p>
           </Reveal>
           <Reveal delay={0.48}>
-            <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-3xl mt-1 lg:mt-3 leading-snug" style={{ color: `${C.brown}CC` }}>daughter of Lt. Soumen Das<br />&amp; Smt. Gopali Das</p>
+            <p className="text-base sm:text-base md:text-lg lg:text-xl xl:text-3xl mt-1 lg:mt-3 leading-snug" style={{ color: `${C.brown}CC` }}>son of Sri Bhabesh Chandra Biswas<br />&amp; Smt. Suchitra Biswas</p>
           </Reveal>
           <Reveal delay={0.56}>
             <div className="w-10 sm:w-12 lg:w-16 xl:w-24 h-px mx-auto mt-3 mb-2 lg:mt-6 lg:mb-4" style={{ background: `${C.gold}99` }} />

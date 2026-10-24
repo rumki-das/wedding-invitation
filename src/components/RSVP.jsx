@@ -18,7 +18,7 @@ export default function RSVP() {
   const handleRSVP = () => {
     if (!name.trim() || !count) return;
     const moodText = moods.length ? `%0AMost excited for: ${encodeURIComponent(moods.join(", "))}` : "";
-    const msg = `Wedding RSVP%0AName: ${encodeURIComponent(name)}%0AGuests attending Reception: ${encodeURIComponent(count)}${moodText}`;
+    const msg = `Wedding RSVP%0AName: ${encodeURIComponent(name)}%0AGuests attending Wedding: ${encodeURIComponent(count)}${moodText}`;
     window.open(`https://wa.me/918348682398?text=${msg}`, "_blank");
     setSent(true);
   };
@@ -28,14 +28,14 @@ export default function RSVP() {
       <div className="max-w-md mx-auto text-center">
         <Reveal>
           <h2 className="text-3xl mb-1" style={{ color: C.maroonDeep }}>RSVP</h2>
-          <p className="text-lg mb-8" style={{ color: `${C.brown}99` }}>Kindly confirm your presence for the Reception</p>
+          <p className="text-lg mb-8" style={{ color: `${C.brown}99` }}>Kindly confirm your presence for the Wedding</p>
         </Reveal>
         <Reveal delay={0.1}>
           <FoilFrame>
             <div className="rounded-xl p-6 text-left" style={{ background: `linear-gradient(160deg, ${C.maroonDeep}, ${C.maroon}), url(${IMG_DAMASK})`, backgroundBlendMode: "multiply", backgroundSize: "cover" }}>
               <label className="text-sm uppercase tracking-wider" style={{ color: C.gold }}>Your name</label>
               <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter full name" className="w-full mt-1 mb-4 px-3 py-2 rounded-md outline-none text-base" style={{ background: C.ivory, color: C.brown }} />
-              <label className="text-sm uppercase tracking-wider" style={{ color: C.gold }}>Guests attending reception</label>
+              <label className="text-sm uppercase tracking-wider" style={{ color: C.gold }}>Guests attending wedding</label>
               <input type="number" min="1" value={count} onChange={(e) => setCount(e.target.value)} placeholder="Number of persons" className="w-full mt-1 mb-4 px-3 py-2 rounded-md outline-none text-base" style={{ background: C.ivory, color: C.brown }} />
               <label className="text-sm uppercase tracking-wider" style={{ color: C.gold }}>Most excited for</label>
               <div className="flex flex-wrap gap-2 mt-2 mb-5">

@@ -1,4 +1,4 @@
-# Manomoy & Rumki — Wedding Invitation
+# Rumki & Manomoy — Wedding Invitation
 
 A single-page animated wedding invitation built with React, Vite, and Tailwind CSS.
 

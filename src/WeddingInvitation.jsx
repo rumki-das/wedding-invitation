@@ -6,7 +6,7 @@ import AudioPlayer from "./components/AudioPlayer";
 import TopBanner from "./components/TopBanner";
 import DateReveal from "./components/DateReveal";
 import DescriptionSection from "./components/DescriptionSection";
-import ProgramRoadmap from "./components/ProgramRoadmap";
+import WeddingVenue from "./components/WeddingVenue";
 import MakeAGuess from "./components/MakeAGuess";
 import Countdown from "./components/Countdown";
 import RSVP from "./components/RSVP";
@@ -43,7 +43,7 @@ export default function WeddingInvitation() {
       <TopBanner />
       <DateReveal />
       <DescriptionSection />
-      <ProgramRoadmap />
+      <WeddingVenue />
       <MakeAGuess />
       <Countdown />
       <RSVP />

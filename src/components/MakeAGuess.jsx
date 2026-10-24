@@ -8,7 +8,7 @@ function GuessCard({ question }) {
   return (
     <div onClick={() => setFlipped((f) => !f)} className="cursor-pointer rounded-lg p-4 text-center flex flex-col items-center justify-center" style={{ background: C.maroonDeep, border: `1px solid ${C.gold}55`, minHeight: 110 }}>
       {!flipped ? (
-        <><p className="text-2xl mb-2" style={{ color: C.gold, fontFamily: "Marcellus, serif" }}>M or R?</p><p className="text-xl" style={{ color: `${C.ivory}CC` }}>{question}</p></>
+        <><p className="text-2xl mb-2" style={{ color: C.gold, fontFamily: "Marcellus, serif" }}>R or M?</p><p className="text-xl" style={{ color: `${C.ivory}CC` }}>{question}</p></>
       ) : (<p className="text-xl italic" style={{ color: C.goldLight }}>Ask us at the wedding 😉</p>)}
     </div>
   );
