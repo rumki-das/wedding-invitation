@@ -13,7 +13,7 @@ export default function SendBlessings() {
   const handleNote = () => {
     if (!note.trim() || !noteName.trim()) return;
     const msg = `A note for the couple 💌%0AFrom: ${encodeURIComponent(noteName)}%0A"${encodeURIComponent(note)}"`;
-    window.open(`https://wa.me/918348682398?text=${msg}`, "_blank");
+    window.open(`https://wa.me/919641531434?text=${msg}`, "_blank");
     setNoteSent(true);
   };
 

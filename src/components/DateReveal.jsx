@@ -48,7 +48,6 @@ export default function DateReveal() {
 
       <div className="relative z-10 max-w-2xl mx-auto">
         <Reveal><p className="text-lg tracking-[0.25em] uppercase mb-1" style={{ color: C.gold }}><b>Save the Date</b></p></Reveal>
-        <Reveal delay={0.1}><p className="text-2xl sm:text-3xl mb-7 sm:mb-10" style={{ color: C.ivory }}>Scroll on — the hearts hold the day</p></Reveal>
         <div ref={heartsRef} className="flex justify-center gap-5 sm:gap-8 md:gap-12 flex-wrap">
           <Reveal delay={0.15}><HeartReveal label="Day" value="25" revealed={revealed} delay={0.3} /></Reveal>
           <Reveal delay={0.22}><HeartReveal label="Month" value="Nov" revealed={revealed} delay={0.8} /></Reveal>

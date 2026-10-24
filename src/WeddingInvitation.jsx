@@ -7,9 +7,9 @@ import TopBanner from "./components/TopBanner";
 import DateReveal from "./components/DateReveal";
 import DescriptionSection from "./components/DescriptionSection";
 import WeddingVenue from "./components/WeddingVenue";
-import MakeAGuess from "./components/MakeAGuess";
+// import MakeAGuess from "./components/MakeAGuess";
 import Countdown from "./components/Countdown";
-import RSVP from "./components/RSVP";
+// import RSVP from "./components/RSVP";
 import SendBlessings from "./components/SendBlessings";
 import Footer from "./components/Footer";
 import { C } from "./components/common/theme";
@@ -44,9 +44,9 @@ export default function WeddingInvitation() {
       <DateReveal />
       <DescriptionSection />
       <WeddingVenue />
-      <MakeAGuess />
+      {/* <MakeAGuess /> */}
       <Countdown />
-      <RSVP />
+      {/* <RSVP /> */}
       <SendBlessings />
       <Footer />
     </div>

@@ -46,7 +46,7 @@ export default function EnvelopeOverlay({ phase, onOpen }) {
             transition: "bottom 1s cubic-bezier(.2,.8,.3,1) 0.45s",
             zIndex: 2, boxShadow: `0 10px 22px -8px ${C.maroonDeep}`,
           }}>
-            <span style={{ color: C.maroonDeep, fontFamily: "'Cormorant Garamond', serif", fontSize: 20 }}>M &amp; R</span>
+            <span style={{ color: C.maroonDeep, fontFamily: "'Cormorant Garamond', serif", fontSize: 20 }}>R &amp; M</span>
           </div>
 
           {/* bottom pocket triangle (in front of letter until flap opens) */}
